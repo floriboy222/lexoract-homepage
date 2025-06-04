@@ -1,195 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex, nofollow">
-  <title>Lexoract | Law School, Demystified</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <style>
-    :root {
-      --blue: #3A58F5;
-      --orange: #FF5C39;
-      --gray: #F6F6F6;
-      --text: #1E1E1E;
-    }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: 'Manrope', sans-serif;
-      background: var(--gray);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(135deg, var(--blue), var(--orange));
-      color: white;
-      padding: 5rem 2rem;
-      text-align: center;
-    }
-    header img {
-      width: 100px;
-      margin-bottom: 1rem;
-    }
-    header h1 {
-      font-size: 3rem;
-      font-weight: 800;
-    }
-    header p {
-      font-size: 1.25rem;
-      margin-top: 1rem;
-      opacity: 0.9;
-    }
-    .cta {
-      margin-top: 2rem;
-    }
-    .cta a {
-      background: white;
-      color: var(--blue);
-      text-decoration: none;
-      padding: 0.75rem 1.5rem;
-      font-weight: 600;
-      border-radius: 8px;
-      transition: background 0.3s ease;
-    }
-    .cta a:hover {
-      background: #f0f0f0;
-    }
-    section {
-      padding: 4rem 2rem;
-      max-width: 960px;
-      margin: auto;
-    }
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: var(--blue);
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 2rem;
-      margin-top: 2rem;
-    }
-    .card {
-      background: white;
-      padding: 2rem;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: translateY(-5px);
-    }
-    .email-form {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
-    .email-form input {
-      padding: 0.75rem;
-      width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 1rem;
-    }
-    .email-form button {
-      background: var(--orange);
-      color: white;
-      border: none;
-      padding: 0.75rem 1.25rem;
-      font-size: 1rem;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: 600;
-    }
-    footer {
-      background: #eee;
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.875rem;
-    }
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2563.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
   </style>
 </head>
 <body>
-  <header data-aos="fade-down">
-    <img src="logo.png" alt="Lexoract Logo">
-    <h1>Lexoract</h1>
-    <p>Law School, Demystified.</p>
-    <div class="cta">
-      <a href="https://lexoract.streamlit.app">Launch Lexoract</a>
-    </div>
-  </header>
-
-  <section data-aos="fade-up">
-    <h2>What is Lexoract?</h2>
-    <p>Lexoract is your AI-powered law school co-pilot. From IRAC breakdowns to flashcard generation, it makes law school make sense — fast, clean, and smart.</p>
-    <ul>
-      <li>🚀 IRAC Summarizer</li>
-      <li>📘 Case Bank Organizer</li>
-      <li>🧠 Smart Flashcard Builder</li>
-      <li>📄 Export to PDF, DOCX, TXT</li>
-    </ul>
-  </section>
-
-  <section data-aos="fade-up">
-    <h2>How It Works</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>1. Paste Any Case</h3>
-        <p>Drop your messy legal text into the app. Don’t overthink it.</p>
-      </div>
-      <div class="card">
-        <h3>2. Get a Clean IRAC</h3>
-        <p>AI dissects your case into Issue, Rule, Application, Conclusion.</p>
-      </div>
-      <div class="card">
-        <h3>3. Export & Study</h3>
-        <p>Download your summary, generate flashcards, or use them in your outline.</p>
-      </div>
-    </div>
-  </section>
-
-  <section data-aos="fade-up">
-    <h2>Built for Law Students</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Fast & Accurate</h3>
-        <p>Spend less time summarizing, more time mastering doctrine.</p>
-      </div>
-      <div class="card">
-        <h3>Polished Output</h3>
-        <p>No more copying from sketchy PDFs. Your summaries actually look good.</p>
-      </div>
-      <div class="card">
-        <h3>Designed by One of You</h3>
-        <p>Built by a fellow law student who got tired of cold calls and chaos.</p>
-      </div>
-    </div>
-  </section>
-
-  <section data-aos="fade-up">
-    <h2>Get Updates</h2>
-    <p>We’re just getting started. Join the waitlist and be the first to know when Lexoract adds new tools.</p>
-    <form class="email-form" action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
-      <input type="email" name="email" placeholder="Your email" required>
-      <button type="submit">Join the List</button>
-    </form>
-  </section>
-
-  <footer>
-    &copy; 2025 Lexoract. Built by law students, for law students. | <a href="#">Terms</a> | <a href="#">Privacy</a>
-  </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>AOS.init();</script>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8" /&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Lexoract – AI for Law Students&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #f7f6f3;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #222;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #0e1a40;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header h1 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 2.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>header p {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 1.2rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>section {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.feature {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin: 2rem auto;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>max-width: 700px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>box-shadow: 0 4px 12px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.feature h2 {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #ff5c35;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>footer {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #0e1a40;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-size: 0.9rem;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.mystery-box {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #ffe2d1;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>padding: 1.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>margin-top: 3rem;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>font-style: italic;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Lexoract&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;The AI Companion for Law Students&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="feature"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;🧠 IRAC Summarizer&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Instantly break down complex cases into Issue, Rule, Application, and Conclusion.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="feature"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;📚 Flashcard Builder&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p&gt;Turn summaries into study-ready flashcards in seconds.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="feature"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h2&gt;🌀 Coming Soon: Lexoract Suite&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="mystery-box"&gt;A mysterious and powerful tool is in development. Stay tuned.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&amp;copy; 2025 Lexoract. Built with questionable sleep schedules and solid case law.</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
 </body>
 </html>
